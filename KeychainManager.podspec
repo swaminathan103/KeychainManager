@@ -21,8 +21,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/swaminathan103/KeychainManager.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "KeychainManager/**/*.{swift}"
+  spec.source_files  = "KeychainManager/**/*.{h,swift}"
   
-  spec.swift_version = "4.2"
+  spec.swift_version = ['4.2', '5.0']
 
 end
