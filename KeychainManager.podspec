@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://twitter.com/kaatupoochi103"
   
   spec.platform     = :ios
-  spec.platform     = :ios, "10.0"
+  spec.ios.deployment_target = '9.0'
 
   spec.source       = { :git => "https://github.com/swaminathan103/KeychainManager.git", :tag => spec.version }
 
