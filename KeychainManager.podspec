@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/swaminathan103/KeychainManager"
 
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
 
   spec.author             = { "Swaminathan" => "swaminathan103@gmail.com" }
   spec.social_media_url   = "https://twitter.com/kaatupoochi103"
