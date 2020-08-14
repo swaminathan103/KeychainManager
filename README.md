@@ -34,7 +34,7 @@ let userEmail = keychainManager.value(for: kSecAttrAccount as String) as? String
 let password = keychainManager.value(for: kSecValueData as String) as? String
 ```
 
-**The data is retrieved from keychain only once during the initialisation of KeychainManager object. After that all the value(for:) calls gets the data from local and the keychain is not queried everytime. This improves the round trip time for a value retrieval from the keychain.**
+**The data is retrieved from keychain only once during the initialisation of KeychainManager object and the local values gets updated whenever the values are updated in the keychain. All the value(for:) calls gets the data from local and the keychain is not queried everytime. This improves the round trip time for a value retrieval from the keychain.**
 
 ## Installation
 
