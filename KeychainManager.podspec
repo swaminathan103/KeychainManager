@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "10.0"
 
-  spec.source       = { :git => "https://github.com/swaminathan103/KeychainManager.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/swaminathan103/KeychainManager.git", :tag => spec.version }
 
   spec.source_files  = "KeychainManager/**/*.{h,swift}"
   
