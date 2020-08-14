@@ -12,7 +12,7 @@ open class KeychainManager {
     var queryable: KeyChainQueryable
     var keyChainItems:[String:Any]?
     
-    init(queryObject:KeyChainQueryable) {
+    public init(queryObject:KeyChainQueryable) {
         self.queryable = queryObject
         self.keyChainItems = queryKeychain()
         if let valueData = self.keyChainItems?[kSecValueData as String] as? Data, let valueString = String(data: valueData, encoding: .utf8) {

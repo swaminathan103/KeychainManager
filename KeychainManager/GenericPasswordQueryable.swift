@@ -12,7 +12,7 @@ public struct GenericPasswordQueryable: KeyChainQueryable {
     var service:String
     var accessGroup:String?
     
-    init(service: String, accessGroup:String?) {
+    public init(service: String, accessGroup:String?) {
         self.service = service
         self.accessGroup = accessGroup
     }
