@@ -61,4 +61,4 @@ import KeychainManager
 Download and drop ```GenericPasswordQueryable.swift```, ```KeyChainQueryable.swift```,   ```KeychainManager.swift.swift``` into your project.
 
 Based on the tutorial -
-http://www.raywenderlich.com/6475/basic-security-in-ios-5-tutorial-part-1
+https://www.raywenderlich.com/9240-keychain-services-api-tutorial-for-passwords-in-swift
